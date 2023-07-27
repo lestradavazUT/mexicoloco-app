@@ -6,7 +6,7 @@ export default {
     featured: [
         {
             id: 1,
-            img: '/b.jpg',
+            img: '/featureImage1.jpg',
             imgList: [
                 '/ambienteSlide/img1.JPG',
                 '/ambienteSlide/img2.JPG',
@@ -16,7 +16,7 @@ export default {
         },
         {
             id: 2,
-            img: '/13.jpg',
+            img: '/featureImage2.jpg',
             imgList: [
                 '/saboresSlide/img1.JPG',
                 '/saboresSlide/img2.JPG',
@@ -26,7 +26,7 @@ export default {
         },
         {
             id: 3,
-            img: '/PaginaAmbiente.jpg',
+            img: '/featureImage3.jpg',
             imgList: [
                 '/culturaSlide/img1.jpg',
                 '/culturaSlide/img2.jpg',

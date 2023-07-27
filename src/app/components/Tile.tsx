@@ -7,7 +7,7 @@ const Tile = () => {
 
     return (
         <div className="tile px-[12.5%] py-[5rem] flex items-center justify-center">
-            <span className="font-secondary text-5xl text-white">
+            <span className="font-secondary text-5xl text-white text-center">
                 {translations[langValue]?.tile}
             </span>
         </div>

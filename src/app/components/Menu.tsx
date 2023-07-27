@@ -53,12 +53,11 @@ const Menu = () => {
                             className="feature flex flex-col items-center justify-center flex-[1] min-w-[320px] max-w-[360px] min-h-[580px]"
                             key={index}
                         >
-                            <div className="feature_img bg-[#aaaaaa] flex items-center justify-center text-center w-full relative ">
-                                <Image
+                            <div className="feature_img bg-[#aaaaaa] flex items-center justify-center text-center w-full relative overflow-hidden">
+                                <img
                                     src={feat?.img}
                                     alt="img"
-                                    fill
-                                    className="object-cover"
+                                    className="object-cover min-h-full min-w-full"
                                 />
                             </div>
                             <div className="feature_body flex flex-col px-[2.5rem] py-[3.5rem] gap-[1rem] items-center justify-start text-white bg-[#d1406b] flex-1">
