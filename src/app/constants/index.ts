@@ -50,8 +50,8 @@ export default {
         }
     ],
     recaptcha: {
-        site: '6Lc2sQQnAAAAAHj4H68Zm6JqmdgDVK1LU2hGms5D',
-        secret: '6Lc2sQQnAAAAANeiwFzE2Mg66e7GqFxOdxGlItwk'
+        site: '6LdvSWInAAAAAOboCXKziyA0PMyc-BlZTVjsCBaZ',
+        secret: '6LdvSWInAAAAALy42Qcd23e8jF8NRbbci1ixL1aO'
     },
     emailjs: {
         serviceId: 'service_w2drnqm',

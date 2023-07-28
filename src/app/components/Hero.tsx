@@ -23,9 +23,6 @@ const Hero = () => {
                 >
                     {translations[langValue]?.hero.btn}
                 </a>
-                {/* <video autoPlay muted loop id="myVideo">
-                    <source src="/videoMexicoLoco.mp4" type="video/mp4" />
-                </video> */}
             </div>
         </div>
     );

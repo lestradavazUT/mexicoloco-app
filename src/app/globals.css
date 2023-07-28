@@ -610,17 +610,19 @@ body:has(.aviso) > .goTop {
     background-color: #dedede;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    header nav {
+        position: inherit;
+    }
+
     .lang-selector {
-        position: relative;
-        margin: 0;
-        right: 0;
-        padding: 1rem 0;
+        position: absolute;
+        top: 150%;
     }
 
     .languages {
         position: absolute;
-        bottom: 2vh;
+        top: 175%;
     }
 }
 
