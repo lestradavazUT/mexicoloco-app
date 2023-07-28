@@ -16,13 +16,13 @@ const Hero = () => {
                 >
                     {translations[langValue]?.hero.frase}
                 </h3>
-                <Link
+                <a
                     className={`px-8 py-4 bg-[#d1406b] text-[#ffffff] hover:bg-[#F4A01B] hover:border-[#F4A01B] transition
                                 border-2 border-[#d1406b] border-solid font-[700]`}
                     href="#menu"
                 >
                     {translations[langValue]?.hero.btn}
-                </Link>
+                </a>
                 {/* <video autoPlay muted loop id="myVideo">
                     <source src="/videoMexicoLoco.mp4" type="video/mp4" />
                 </video> */}
