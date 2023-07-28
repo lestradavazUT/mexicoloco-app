@@ -30,7 +30,7 @@ const Footer = () => {
         >
             <div className="flex w-full flex-col items-center justify-center gap-8">
                 <img
-                    src="/mexicoloco_logo.png"
+                    src="/mexicoloco-logo.webp"
                     alt="logo"
                     className="w-[8rem] opacity-60"
                 />

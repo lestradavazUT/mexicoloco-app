@@ -83,7 +83,7 @@ const Navbar = () => {
                     href="/"
                     className={`logo header-logo ${reached && 'mini'}`}
                 >
-                    <img src="/mexicoloco_logo_negativo.png" alt="logo" />
+                    <img src="/mexicoloco-logo-negativo.webp" alt="logo" />
                 </Link>
                 <i
                     className={`${
@@ -124,7 +124,7 @@ const Navbar = () => {
                         {translations[langValue]?.navbar.location}
                     </Link>
                     <Link href="/" className={`logo ${reached && 'mini'}`}>
-                        <img src="/mexicoloco_logo_negativo.png" alt="logo" />
+                        <img src="/mexicoloco-logo-negativo.webp" alt="logo" />
                     </Link>
                     <Link
                         href="#opiniones"

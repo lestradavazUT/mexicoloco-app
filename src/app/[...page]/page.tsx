@@ -12,7 +12,7 @@ export default function NotFound() {
         <div className="h-screen w-screen grid place-items-center notFound relative">
             <div className="w-[80%] max-w-[40rem] grid place-items-center">
                 <img
-                    src="/mexicoloco_logo.png"
+                    src="/mexicoloco-logo.webp"
                     alt="logo_img"
                     className="absolute top-[15vh] w-[10rem]"
                 />

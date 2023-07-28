@@ -190,7 +190,7 @@ header {
 }
 
 header .pleca {
-    background: url('/pleca.png');
+    background: url('/pleca.webp');
     background-size: 50%;
     background-position: top center;
     background-repeat: repeat-x;
@@ -336,11 +336,11 @@ nav a:not(.logo).negro {
 }
 
 .hero {
-    background: linear-gradient(#00000050, #00000050), url('/mariachi.jpg');
+    background: linear-gradient(#00000050, #00000050), url('/mariachi.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     overflow: hidden;
     /* background: #00000050; */
 }
@@ -416,21 +416,21 @@ nav a:not(.logo).negro {
 
 .tile {
     background: linear-gradient(rgb(0, 0, 0, 0.25), rgb(0, 0, 0, 0.25)),
-        url('/foto.JPG');
+        url('/tile.webp');
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 /* .menu {
-    background: url('/fondo_nuevo.png');
+    background: url('/fondo_nuevo.webp');
     background-size: cover;
     background-position: center center;
 }
 
 .testimonials {
-    background: url('/fondo_nuevo2.png');
+    background: url('/fondo_nuevo2.webp');
     background-size: cover;
     background-position: center center;
 } */
@@ -438,7 +438,7 @@ nav a:not(.logo).negro {
 .notFound,
 .testimonials,
 .menu {
-    background: url('/patron.jpg');
+    background: url('/patron.webp');
     background-size: cover;
     background-position: center center;
 }
@@ -459,7 +459,7 @@ nav a:not(.logo).negro {
 }
 
 .contact {
-    background: linear-gradient(#00000050, #00000050), url('/8.png');
+    background: linear-gradient(#00000050, #00000050), url('/contacto.webp');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -555,7 +555,7 @@ body:has(.footer.isVisible) > .goTop {
 }
 
 .map a.frame {
-    background: url('/mapa.jpg');
+    background: url('/mapa.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
