@@ -611,10 +611,6 @@ body:has(.aviso) > .goTop {
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
-    header nav {
-        position: inherit;
-    }
-
     .lang-selector {
         position: absolute;
         top: 150%;
