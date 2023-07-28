@@ -145,31 +145,31 @@ const Navbar = () => {
                     >
                         {translations[langValue]?.navbar.contact}
                     </a>
-                    {langValue && (
-                        <button
-                            type="button"
-                            className="bg-transparent text-white lang-selector font-primary text-2xl mb-1"
-                            onClick={() => setIsOpen((prev) => !prev)}
-                        >
-                            {langValue.toUpperCase()}
-                            <i className="ri-arrow-drop-down-line"></i>
-                        </button>
-                    )}
-                    {isOpen && (
-                        <div className="languages">
-                            {languages?.map((language, index) => (
-                                <button
-                                    type="button"
-                                    key={index}
-                                    className="lang_option capitalize font-bold"
-                                    onClick={() => changeLang(language.code)}
-                                >
-                                    {language.txt}
-                                </button>
-                            ))}
-                        </div>
-                    )}
                 </nav>
+                {langValue && (
+                    <button
+                        type="button"
+                        className="bg-transparent text-white lang-selector font-primary text-2xl mb-1"
+                        onClick={() => setIsOpen((prev) => !prev)}
+                    >
+                        {langValue.toUpperCase()}
+                        <i className="ri-arrow-drop-down-line"></i>
+                    </button>
+                )}
+                {isOpen && (
+                    <div className="languages">
+                        {languages?.map((language, index) => (
+                            <button
+                                type="button"
+                                key={index}
+                                className="lang_option capitalize font-bold"
+                                onClick={() => changeLang(language.code)}
+                            >
+                                {language.txt}
+                            </button>
+                        ))}
+                    </div>
+                )}
             </div>
             <div
                 className={`pleca w-full h-[10rem] ${
