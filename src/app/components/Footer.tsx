@@ -35,14 +35,14 @@ const Footer = () => {
                     className="w-[8rem] opacity-60"
                 />
                 <div className="socials flex items-center gap-6">
-                    <Link
+                    <a
                         href={'https://www.instagram.com/somosmexicoloco/'}
                         target="_blank"
                         className="social flex items-center justify-center h-[2rem] w-[2rem] text-[#d1406b] hover:text-[#F4A01B] transition-all"
                     >
                         <i className="ri-instagram-fill text-[1.95rem]"></i>
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                         href={
                             'https://www.facebook.com/miMexicoLoco/?locale=es_LA'
                         }
@@ -50,11 +50,11 @@ const Footer = () => {
                         className="social flex items-center justify-center h-[2rem] w-[2rem] text-[#d1406b] hover:text-[#F4A01B] transition-all"
                     >
                         <i className="ri-facebook-box-fill text-[2rem]"></i>
-                    </Link>
+                    </a>
                 </div>
-                {/* <Link href={'/aviso'} className="text-[.9rem] hover:underline">
+                {/* <a href={'/aviso'} className="text-[.9rem] hover:underline">
                     Politicas de privacidad
-                </Link> */}
+                </a> */}
             </div>
         </footer>
     );

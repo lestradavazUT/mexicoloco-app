@@ -79,12 +79,9 @@ const Navbar = () => {
             ref={header}
         >
             <div className="header_container">
-                <Link
-                    href="/"
-                    className={`logo header-logo ${reached && 'mini'}`}
-                >
+                <a href="/" className={`logo header-logo ${reached && 'mini'}`}>
                     <img src="/mexicoloco-logo-negativo.webp" alt="logo" />
-                </Link>
+                </a>
                 <i
                     className={`${
                         show ? 'ri-close-fill' : 'ri-menu-4-fill'
@@ -101,7 +98,7 @@ const Navbar = () => {
                     ref={nav}
                     className={`${show ? 'flex' : 'none'} ${reached && 'rosa'}`}
                 >
-                    <Link
+                    <a
                         href="#nosotros"
                         className={` ${!reached ? '' : ''} font-primary`}
                         onClick={() => {
@@ -111,8 +108,8 @@ const Navbar = () => {
                         }}
                     >
                         {translations[langValue]?.navbar.about}
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                         href="#ubicacion"
                         className={` ${!reached ? '' : ''} font-primary`}
                         onClick={() => {
@@ -122,11 +119,11 @@ const Navbar = () => {
                         }}
                     >
                         {translations[langValue]?.navbar.location}
-                    </Link>
-                    <Link href="/" className={`logo ${reached && 'mini'}`}>
+                    </a>
+                    <a href="/" className={`logo ${reached && 'mini'}`}>
                         <img src="/mexicoloco-logo-negativo.webp" alt="logo" />
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                         href="#opiniones"
                         className={` ${!reached ? '' : ''} font-primary`}
                         onClick={() => {
@@ -136,8 +133,8 @@ const Navbar = () => {
                         }}
                     >
                         {translations[langValue]?.navbar.opinions}
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                         href="#contacto"
                         className={` ${!reached ? '' : ''} font-primary`}
                         onClick={() => {
@@ -147,7 +144,7 @@ const Navbar = () => {
                         }}
                     >
                         {translations[langValue]?.navbar.contact}
-                    </Link>
+                    </a>
                     {langValue && (
                         <button
                             type="button"

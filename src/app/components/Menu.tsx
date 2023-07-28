@@ -112,13 +112,13 @@ const Menu = () => {
                         referrerPolicy="no-referrer-when-downgrade"
                         className="frame"
                     ></iframe>
-                    {/* <Link
+                    {/* <a
                     className="frame"
                     href={
                         'https://www.google.com/maps/place/Mexico+Loco/@20.622503,-87.075022,21z/data=!4m6!3m5!1s0x8f4e433a2b47217f:0x3bacf1f0c8129c4e!8m2!3d20.6224103!4d-87.075011!16s%2Fg%2F11bwy_rvwy?hl=es-419&entry=ttu'
                     }
                     target="_blank"
-                ></Link> */}
+                ></a> */}
                 </div>
             </div>
         </>

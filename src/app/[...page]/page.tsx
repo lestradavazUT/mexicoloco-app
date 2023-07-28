@@ -20,12 +20,12 @@ export default function NotFound() {
                     <span className="font-secondary text-4xl text-center">
                         404. {translations[langValue]?.notFound.txt}
                     </span>
-                    <Link
+                    <a
                         href={'/'}
                         className="font-primary text-2xl px-6 py-2 text-white bg-[#d1406b] hover:bg-[#F4A01B] transition-all"
                     >
                         {translations[langValue]?.notFound.btn}
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>

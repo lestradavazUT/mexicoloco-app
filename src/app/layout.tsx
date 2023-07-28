@@ -37,12 +37,12 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" className="scroll-smooth">
             <Head>
-                <Link
+                <a
                     href={
                         'https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css'
                     }
                     rel="stylesheet"
-                ></Link>
+                ></a>
             </Head>
             <body className={`${font.className}`}>
                 <LangContextProvider>{children}</LangContextProvider>
