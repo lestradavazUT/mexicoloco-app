@@ -6,32 +6,39 @@ export default {
     featured: [
         {
             id: 1,
-            img: '/featureImage1.webp',
+            img: '/ambienteSlide/portada.webp',
             imgList: [
                 '/ambienteSlide/img1.webp',
                 '/ambienteSlide/img2.webp',
                 '/ambienteSlide/img3.webp',
-                '/ambienteSlide/img4.webp'
+                '/ambienteSlide/img4.webp',
+                '/ambienteSlide/img5.webp',
+                '/ambienteSlide/img6.webp'
             ]
         },
         {
             id: 2,
-            img: '/featureImage2.webp',
+            img: '/saboresSlide/portada.webp',
             imgList: [
                 '/saboresSlide/img1.webp',
                 '/saboresSlide/img2.webp',
                 '/saboresSlide/img3.webp',
-                '/saboresSlide/img4.webp'
+                '/saboresSlide/img4.webp',
+                '/saboresSlide/img5.webp',
+                '/saboresSlide/img6.webp'
             ]
         },
         {
             id: 3,
-            img: '/featureImage3.webp',
+            img: '/culturaSlide/portada.webp',
             imgList: [
                 '/culturaSlide/img1.webp',
                 '/culturaSlide/img2.webp',
                 '/culturaSlide/img3.webp',
-                '/culturaSlide/img4.webp'
+                '/culturaSlide/img4.webp',
+                '/culturaSlide/img5.webp',
+                '/culturaSlide/img6.webp',
+                '/culturaSlide/img7.webp'
             ]
         }
     ],

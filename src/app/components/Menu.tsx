@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 
 import { Carattere } from 'next/font/google';
 import constants from '../constants';
@@ -53,13 +53,11 @@ const Menu = () => {
                             className="feature flex flex-col items-center justify-center flex-[1] min-w-[320px] max-w-[360px] min-h-[580px]"
                             key={index}
                         >
-                            <div className="feature_img bg-[#aaaaaa] flex items-center justify-center text-center w-full relative overflow-hidden">
-                                <img
-                                    src={feat?.img}
-                                    alt="img"
-                                    className="object-cover min-h-full min-w-full"
-                                />
-                            </div>
+                            <div
+                                className={`feature_img bg-[#aaaaaa] flex items-center justify-center text-center w-full relative overflow-hidden feature${
+                                    index + 1
+                                }`}
+                            ></div>
                             <div className="feature_body flex flex-col px-[2.5rem] py-[3.5rem] gap-[1rem] items-center justify-start text-white bg-[#d1406b] flex-1">
                                 <h6
                                     className={`font-primary text-[1.5rem] leading-[1]`}

@@ -36,12 +36,12 @@ body {
 }
 
 .logo {
-    height: 110px;
+    height: 6.5rem;
     display: block;
 }
 
 .logo.mini {
-    height: 90px;
+    height: 5.5rem;
 }
 
 .logo img {
@@ -198,7 +198,7 @@ header .pleca {
 }
 
 header nav {
-    padding-block: 0.5rem;
+    padding-block: 1rem;
     margin-inline: auto;
     display: flex;
     align-items: center;
@@ -415,6 +415,26 @@ nav a:not(.logo).negro {
     aspect-ratio: 1.5;
 }
 
+.feature1 {
+    background: url('/ambienteSlide/portada.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.feature2 {
+    background: url('/saboresSlide/portada.webp');
+    background-position: center 35%;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.feature3 {
+    background: url('/culturaSlide/portada.webp');
+    background-position: center center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
 .tile {
     background: linear-gradient(rgb(0, 0, 0, 0.25), rgb(0, 0, 0, 0.25)),
         url('/tile.webp');
@@ -460,7 +480,7 @@ nav a:not(.logo).negro {
 }
 
 .contact {
-    background: linear-gradient(#00000050, #00000050), url('/contacto.webp');
+    background: linear-gradient(#00000035, #00000035), url('/contacto.webp');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -693,4 +713,20 @@ dialog[open].imageSlideShow img {
 
 dialog[open].imageSlideShow .close-btn {
     z-index: 9999999;
+}
+
+.slider {
+    aspect-ratio: 4/5;
+    width: 90vw;
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 6rem;
+}
+
+.slider img {
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
 }
